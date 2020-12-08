@@ -9,6 +9,13 @@ public abstract class GameBoardLogic {
     private int[] board;
 
     /**
+     * Constructor that calls initBoard
+     */
+    protected GameBoardLogic() {
+        initBoard();
+    }
+
+    /**
      * This method should initialise the gameBoard.
      */
     public abstract void initBoard();
@@ -42,6 +49,10 @@ public abstract class GameBoardLogic {
      */
     public int[] getBoard(){
         return board;
+    }
+
+    public boolean isEmpty(){
+        return this.board.length == 0;
     }
 
     /**

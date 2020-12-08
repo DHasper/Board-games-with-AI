@@ -63,7 +63,7 @@ public class ReversiGameLogic extends GameLogic {
      * @return int representing the winner of the game, 3 means a draw, 0 means the game is not over.
      */
     @Override
-    public int gameOver (){
+    public int gameOver(){
         if(getMoves(1).size() == 0 && getMoves(2).size() == 0){
             if(getDiscCount(1) > getDiscCount(2)){
                 return 1;

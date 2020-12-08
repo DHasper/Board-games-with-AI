@@ -32,7 +32,7 @@ public class TicTacToeMinimaxStrategy extends MinimaxStrategy {
      * @param b         the board of the game
      * @return          the amount of points after the evaluation
      */
-    private int evaluate(GameBoardLogic b) {
+    private int evaluate(GameBoardLogic b){
         int[] board = b.getBoard();
 
         // Check rows for a win position.

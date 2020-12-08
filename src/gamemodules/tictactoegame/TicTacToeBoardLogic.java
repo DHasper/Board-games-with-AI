@@ -7,10 +7,6 @@ import src.gameframework.GameBoardLogic;
  */
 public class TicTacToeBoardLogic extends GameBoardLogic {
 
-    public TicTacToeBoardLogic(){
-        initBoard();
-    }
-
     /**
      * This method initialises the default gameBoard for tic tac toe.
      */

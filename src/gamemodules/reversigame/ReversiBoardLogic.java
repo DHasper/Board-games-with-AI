@@ -8,13 +8,6 @@ import src.gameframework.GameBoardLogic;
 public class ReversiBoardLogic extends GameBoardLogic {
 
     /**
-     * Constructor for the reversi board that call initBoard.
-     */
-    public ReversiBoardLogic(){
-        initBoard();
-    }
-
-    /**
      * This method initialises the default gameBoard for reversi.
      */
     @Override
