@@ -1,6 +1,6 @@
 # Board games + AI
 
-This is a collection of AI for different board games. As of right there are three games:
+This is a collection of AI for different board games. As of now there are three games:
 
 - tic tac toe
 - reversi
