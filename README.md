@@ -6,7 +6,7 @@ This is a collection of AI for different board games. As of now there are three 
 - reversi
 - connect four
 
-I am planning to add more games, different types of AI, and a GUI to visualize games. 
+I plan to add more games, different types of AI, and a GUI to visualize games. 
 
 ## Tic tac toe
 
